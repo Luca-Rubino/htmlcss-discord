@@ -90,6 +90,12 @@ footer  h2 {
 
 .bg-black {
     background: black;
+    border: 1rem solid black;
+}
+
+.bg-7289da {
+    background: #7289da;
+    border: 1rem solid #7289da;
 }
 
 .flex-justify-align-center {
