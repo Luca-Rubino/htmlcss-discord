@@ -1,0 +1,86 @@
+/* reset */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* impostazioni generali */
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: darkgray;
+}
+
+ul {
+    padding: 1rem 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 48%;
+}
+
+header {
+    background: no-repeat #255EE9;
+    background-size: cover;
+}
+
+main {
+    color: black;
+}
+
+footer {
+    background-color: #23272a;
+}
+
+hr {
+    border: 1px solid #4f5d8c;
+}
+
+footer  h2 {
+    color: #7289da;
+}
+
+/* impostazioni classe */
+
+.padding-10rem {
+    padding: 1rem 10rem 0 10rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.bg-white {
+    background: white;
+}
+
+.bg-gray {
+    background: #f5f5f5;
+}
+
+.bg-dark {
+    background: #4f5d8c;
+}
+
+.flex-justify-align-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    text-align: center;
+    align-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
