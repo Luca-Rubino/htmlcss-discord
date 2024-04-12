@@ -22,6 +22,17 @@ ul {
     width: 48%;
 }
 
+button {
+    background: #fff;
+    border: 1rem solid white;
+    color: black;
+    font-family: "Roboto", self-serif;
+    padding: 0 1rem 0 1rem;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
 header {
     background: no-repeat #255EE9;
     background-size: cover;
