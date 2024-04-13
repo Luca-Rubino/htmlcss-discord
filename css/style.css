@@ -43,10 +43,11 @@ main {
 
 .bg-star {
     background-image: url("../img/stars.svg");
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
     padding: 1rem 0rem 1.5rem 0rem;
-    margin: 0 36rem;
-    background-position: center;
+    margin: 0 22rem;
 }
 
 footer {
