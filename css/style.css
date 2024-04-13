@@ -61,6 +61,11 @@ footer  h2 {
     padding: 1rem 10rem 0 10rem;
 }
 
+.padding-button-footer {
+    padding-bottom: 3rem;
+
+}
+
 .text-center {
     text-align: center;
 }
