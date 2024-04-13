@@ -24,9 +24,9 @@ ul {
 
 button {
     background: #fff;
-    border: solid white;
     color: black;
     font-family: "Roboto", sans-serif;
+    border: .5rem solid transparent;
     border-radius: 25px;
     display: flex;
     align-items: center;
@@ -46,7 +46,9 @@ footer {
 }
 
 hr {
-    border: solid #4f5d8c;
+    border: 1px solid #4f5d8c;
+    border-radius: 1rem;
+    margin: 1rem 0;
 }
 
 footer  h2 {
@@ -89,12 +91,10 @@ footer  h2 {
 
 .bg-black {
     background: black;
-    border: solid black;
 }
 
 .bg-7289da {
     background: #7289da;
-    border: solid #7289da;
 }
 
 .flex-justify-align-center {
@@ -102,13 +102,12 @@ footer  h2 {
     align-items: center;
 }
 
+.size-button {
+    padding: 0 1rem;
+}
+
 .size-button-footer {
-    border-top-width: 0rem;
-    border-bottom-width: 0.3rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    border-right-width: 1.5rem;
-    border-left-width: 1.5rem;
+    padding: 0 .5rem .3rem .5rem;
 }
 
 .flex-column {
