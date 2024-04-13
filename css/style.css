@@ -51,6 +51,11 @@ hr {
     margin: 1rem 0;
 }
 
+footer section:first-of-type>div:first-of-type {
+    display: flex;
+    align-items: center;
+}
+
 footer  h2 {
     color: #7289da;
 }
@@ -120,4 +125,10 @@ footer  h2 {
     align-content: flex-start;
     justify-content: center;
     flex-direction: column;
+}
+
+/* impostazioni id */
+
+#ita-flag-footer {
+    width: 2rem;
 }
