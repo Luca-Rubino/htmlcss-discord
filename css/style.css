@@ -66,6 +66,10 @@ footer  h2 {
     padding: 1rem 10rem 0 10rem;
 }
 
+.padding-bottom-1rem {
+    padding-bottom: 1rem;
+}
+
 .padding-button-footer {
     padding-bottom: 3rem;
 
@@ -131,4 +135,8 @@ footer  h2 {
 
 #ita-flag-footer {
     width: 2rem;
+}
+
+#icone-social {
+    padding-right: 3rem;
 }
