@@ -41,6 +41,14 @@ main {
     color: black;
 }
 
+.bg-star {
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    padding: 1rem 0rem 1.5rem 0rem;
+    margin: 0 36rem;
+    background-position: center;
+}
+
 footer {
     background-color: #23272a;
 }
