@@ -9,8 +9,8 @@
 /* impostazioni generali */
 
 body {
-    max-width: 1980px;
-    min-width: 1900px;
+    max-width: 1903px;
+    min-width: 1903px;
     font-family: "Roboto", sans-serif;
     color: white;
     background-color: darkgray;
@@ -69,6 +69,16 @@ main {
     color: black;
 }
 
+main div section p {
+    padding-bottom: .5rem;
+    font-size: 1.2rem;
+}
+
+main h2 {
+    font-size: 3rem;
+    padding: 0rem 0 2rem 0;
+}
+
 main h3 {
     font-size: 1.4rem;
     margin-bottom: 1rem;
@@ -101,6 +111,14 @@ footer  h2 {
 
 .padding-bottom-1rem {
     padding-bottom: 1rem;
+}
+
+.padding-7rem {
+    padding: 7rem 0;
+}
+
+.padding-02rem {
+    padding: .2rem;
 }
 
 .padding-button-footer {
@@ -170,7 +188,7 @@ footer  h2 {
     background-repeat: no-repeat;
     background-attachment: local;
     height: 39px;
-    margin: 0 36rem;
+    margin: 0 46rem;
 }
 
 /* impostazioni id */
