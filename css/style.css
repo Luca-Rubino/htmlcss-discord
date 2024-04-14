@@ -10,7 +10,7 @@
 
 body {
     max-width: 1980px;
-    min-width: 1980px;
+    min-width: 1900px;
     font-family: "Roboto", sans-serif;
     color: white;
     background-color: darkgray;
@@ -29,9 +29,11 @@ button {
     color: black;
     font-family: "Roboto", sans-serif;
     border: .5rem solid transparent;
-    border-radius: 25px;
+    border-radius: 50px;
     display: flex;
     align-items: center;
+    padding: 1rem;
+    font-size: 1rem;
 }
 
 header {
@@ -148,7 +150,7 @@ footer  h2 {
 }
 
 .size-button {
-    padding: 0 1rem;
+    padding: .5rem 1rem;
 }
 
 .size-button-footer {
