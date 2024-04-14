@@ -81,7 +81,7 @@ main h2 {
 
 main h3 {
     font-size: 1.4rem;
-    margin-bottom: 1rem;
+    padding: 2rem;
 }
 
 footer {
@@ -124,6 +124,10 @@ footer  h2 {
 .padding-button-footer {
     padding-bottom: 3rem;
 
+}
+
+.margin-bottom-6rem {
+    margin-bottom: 6rem;
 }
 
 .text-center {
