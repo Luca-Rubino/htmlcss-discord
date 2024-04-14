@@ -43,18 +43,24 @@ header {
 
 h1 {
     padding-bottom: 2rem;
+    font-size: 2.6rem;
 }
 
 header > section {
-    padding: 6rem;
+    padding: 12.5rem 0;
 }
 
 header section p {
     padding-bottom: 0.7rem;
+    font-size: 1.3rem;
 }
 
-header section > div button:first-of-type {
+header section div > button:first-of-type {
     margin: 0 1rem;
+}
+
+header section button {
+    font-size: 1.2rem;
 }
 
 main {
