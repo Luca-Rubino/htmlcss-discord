@@ -35,8 +35,26 @@ button {
 }
 
 header {
-    background: no-repeat #255EE9;
+    background-image: url("../img/jumbo.png");
+    background-repeat: no-repeat;
     background-size: cover;
+    height: 46rem;
+}
+
+h1 {
+    padding-bottom: 2rem;
+}
+
+header > section {
+    padding: 6rem;
+}
+
+header section p {
+    padding-bottom: 0.7rem;
+}
+
+header section > div button:first-of-type {
+    margin: 0 1rem;
 }
 
 main {
